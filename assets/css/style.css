@@ -1,0 +1,87 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color:#ffffff;
+    margin-left: 0;
+    margin-right: 0%;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    float: left;
+    color: white;
+    font-size: 15px;
+    display: block;
+
+}
+
+header {
+    margin:auto; 
+    margin-bottom: 0%;
+    width: 960px;
+
+}
+
+
+.header-right {
+    float: right;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 12px;
+    font-size: 10px;
+    line-height: 25px; 
+    border-radius: 4px
+}
+
+
+#containerTitle {
+    padding-left: 15px;
+    background-color: white;
+    color: #4aaaa5;
+}
+
+#innerContainer {
+    margin: auto;
+    width: 960px;
+    background: #ffffff;
+    border: 2px solid black;
+    overflow: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.container { 
+    margin: auto;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 4px solid teal;
+    padding-top: 25px;
+    padding-bottom: 75px;
+    flex: auto
+}
+
+
+#aboutmecontent, #bio-image {
+   padding: 15px;
+}
+
+#aboutmecontent {
+    width: 100%
+}
+
+#bio-image {
+    float: left;
+}
